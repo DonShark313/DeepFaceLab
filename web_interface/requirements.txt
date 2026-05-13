@@ -1,0 +1,36 @@
+# DeepFaceLab Web Interface Requirements
+
+# Flask and related
+Flask==2.3.2
+Flask-CORS==4.0.0
+Werkzeug==2.3.6
+
+# Deep Learning
+TensorFlow==2.13.0
+torch==2.0.1
+torchvision==0.15.2
+
+# Image and Video Processing
+opencv-python==4.8.0.74
+Pillow==10.0.0
+imageio==2.32.0
+imageio-ffmpeg==0.4.9
+
+# Scientific Computing
+numpy==1.24.3
+scipy==1.11.1
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+psutil==5.9.5
+
+# Logging and Debugging
+python-logging-loki==0.3.2
+
+# Optional: For API documentation
+flask-swagger==0.2.14
+
+# Database (Optional)
+SQLAlchemy==2.0.19
+Flask-SQLAlchemy==3.0.5
